@@ -19,7 +19,7 @@
 
   ## タグ付きの人がいなければ以下を実行
    ## チームに入れる
-    execute if entity @s[tag=join] run team join purple @s
+    execute if entity @s[tag=join] run team join it_purple @s
    ## テルロー出す
     execute if entity @s[tag=join] run tellraw @s [{"text": "[!]","bold":true,"color": "green"},{"text": "紫色の溶鉱炉を使用します"}]
    ## 顔の看板を出す
