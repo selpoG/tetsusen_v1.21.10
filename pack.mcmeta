@@ -1,6 +1,8 @@
 {
   "pack": {
-    "pack_format": 26,
-    "description": "鉄千配布DP"
+    "description": "鉄千配布DP",
+    "pack_format": 88,
+    "min_format": 88,
+    "max_format": 88
   }
 }
