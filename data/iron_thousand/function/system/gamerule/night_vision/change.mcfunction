@@ -8,8 +8,8 @@ execute if score night_vision setting matches 2 run scoreboard players set night
 execute if score night_vision setting matches 3 run scoreboard players set night_vision setting 0
 
 ##書き換え
-execute if score night_vision setting matches 1 run data modify entity @e[type=text_display,sort=nearest,limit=1,tag=night_vision] text set value '{"text": "オン","color": "black","bold":true}'
-execute if score night_vision setting matches 0 run data modify entity @e[type=text_display,sort=nearest,limit=1,tag=night_vision] text set value '{"text": "オフ","color": "black","bold":true}'
+execute if score night_vision setting matches 1 run data modify entity @e[type=text_display,sort=nearest,limit=1,tag=night_vision] text set value {"text": "オン","color": "black","bold":true}
+execute if score night_vision setting matches 0 run data modify entity @e[type=text_display,sort=nearest,limit=1,tag=night_vision] text set value {"text": "オフ","color": "black","bold":true}
 
 ##デスカウント0
 scoreboard players set @a death 0

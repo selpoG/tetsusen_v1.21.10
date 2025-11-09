@@ -13,9 +13,9 @@
  execute if score difficulty setting matches 7 run difficulty peaceful
 
 ##表示を変更
- execute if score difficulty setting matches 4 run data modify entity @e[type=text_display,sort=nearest,limit=1,tag=difficulty] text set value '{"text": "イージー","color": "black","bold":true}'
- execute if score difficulty setting matches 5 run data modify entity @e[type=text_display,sort=nearest,limit=1,tag=difficulty] text set value '{"text": "ノーマル","color": "black","bold":true}'
- execute if score difficulty setting matches 6 run data modify entity @e[type=text_display,sort=nearest,limit=1,tag=difficulty] text set value '{"text": "ハード","color": "black","bold":true}'
- execute if score difficulty setting matches 7 run data modify entity @e[type=text_display,sort=nearest,limit=1,tag=difficulty] text set value '{"text": "ピースフル","color": "black","bold":true}'
+ execute if score difficulty setting matches 4 run data modify entity @e[type=text_display,sort=nearest,limit=1,tag=difficulty] text set value {"text": "イージー","color": "black","bold":true}
+ execute if score difficulty setting matches 5 run data modify entity @e[type=text_display,sort=nearest,limit=1,tag=difficulty] text set value {"text": "ノーマル","color": "black","bold":true}
+ execute if score difficulty setting matches 6 run data modify entity @e[type=text_display,sort=nearest,limit=1,tag=difficulty] text set value {"text": "ハード","color": "black","bold":true}
+ execute if score difficulty setting matches 7 run data modify entity @e[type=text_display,sort=nearest,limit=1,tag=difficulty] text set value {"text": "ピースフル","color": "black","bold":true}
 
 ## 
